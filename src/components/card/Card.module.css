@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  padding: 0.9rem;
+  margin: 2rem;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px;
+  backdrop-filter: blur(5px);
+}
+
+.btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  box-sizing: content-box;
+  border: none;
+  font-size: 1.3rem;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btninfo {
+  position: absolute;
+  top: 0.25rem;
+  right: 2rem;
+  box-sizing: content-box;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.imginfo,
+.svg {
+  width: 1.3rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  /* margin: 1rem; */
+  color: white;
+  font-size: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.8) 0px 3px 4px;
+}
+
+h3,
+p {
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: rgba(0, 0, 0, 0.8) 0px 3px 4px;
+}
+
+span {
+  font-size: 1rem;
+}

@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  padding: 0.9rem;
+  margin: 2rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px;
+  backdrop-filter: blur(5px);
+}
+
+/* .contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+} */
+
+.btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  box-sizing: content-box;
+  border: none;
+  font-size: 1.3rem;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btnBack {
+  width: 1.3rem;
+}
